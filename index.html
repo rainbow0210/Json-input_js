@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Select Page</title>
+        <style>
+            h1,p{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Select pages!</h1>
+        <p>
+            Test Pages!<br>
+            This repository use html and javascript, and use fetch to read json.
+        </p>
+        <center>
+            <form action="">
+                <select onchange="location.href=this.options[this.selectedIndex].value" style="text-align:center;color:black;font-size:24px;font-weight:bold;background:white;border:solid 1px #0d0066">
+                    <option value="">Chose page</option>
+                    <option value="./json-input_html/json_input.html">Sample1</option>
+                    <option value="./json-input_html/json_input1.html">Sample2</option>
+                    <option value="#">dummy</option>
+                </select>
+            </form><br>
+        </center>
+    </body>
+</html>
