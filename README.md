@@ -20,7 +20,9 @@ cd Json-input_js
 ```
 ### 基本的な使い方
 1. 単純にファイルをブラウザで開く（環境によっては `fetch` 制限により動作しない場合があります）。
-2. 簡易サーバを起動して動作させる（推奨）。例:
+2. 簡易サーバを起動して動作させる（推奨）。
+
+例:
 ```bash
 # Node.js がある場合
 npx http-server .
@@ -60,7 +62,9 @@ cd Json-input_js
 ```
 ### Basic Usage
 1. Open `index.html` directly in a browser (may not work in all environments due to `fetch` restrictions).
-2. Recommended: run a simple server and open the served page. Examples:
+2. Recommended: run a simple server and open the served page.
+
+Examples:
 ```bash
 # With Node.js
 npx http-server .
